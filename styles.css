@@ -131,10 +131,12 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-.buttons a:hover{
+
+.buttons a:hover {
     background-color: var(--Green);
     color: var(--Grey700);
 }
+
 .attribution {
     position: absolute;
     bottom: 5%;
@@ -151,12 +153,14 @@ h2 {
     .buttons a {
         width: 376px;
     }
-  }
+}
+
 @media screen and (max-width:375px) {
     .buttons a {
         width: 279px;
     }
-    .container{
+
+    .container {
         padding: 24px;
     }
-  }
+}
